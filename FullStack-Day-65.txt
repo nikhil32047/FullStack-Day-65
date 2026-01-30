@@ -1,0 +1,64 @@
+Day 65:
+==========
+
+a) Why JavaScript?
+=========================
+JavaScript is a client-side scripting language used to make web pages interactive and dynamic.
+It runs directly in the browser and works seamlessly with HTML and CSS.
+
+Why JavaScript is important:
+Adds interactivity (clicks, forms, validation)
+Updates content without reloading pages
+Supported by all modern browsers
+Used in frontend, backend (Node.js), mobile & AI apps
+Examples of JavaScript usage:
+Form validation
+Dynamic menus
+Live data updates
+Web applications (React, Angular)
+
+Example:
+<button onclick="alert('Hello JavaScript')">Click</button>
+
+
+b) Ways to Write JavaScript:
+================================
+
+1) Inside Body Tag (script tag)
+===================================
+<body>
+<script>
+  alert("JS inside body");
+</script>
+</body>
+
+✔ Executes while page loads
+✔ Easy for small scripts
+
+
+2) Inside Head Tag
+=======================
+<head>
+<script>
+  alert("JS inside head");
+</script>
+</head>
+
+✔ Loaded before body
+✔ Often used with functions
+
+
+3) External JavaScript File (.js)
+=====================================
+HTML file
+
+<script src="app.js"></script>
+
+
+app.js
+
+alert("External JS file");
+
+✔ Best practice
+✔ Reusable & maintainable
+✔ Faster loading
